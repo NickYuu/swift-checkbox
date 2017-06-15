@@ -1,0 +1,6 @@
+framework module Pods_checkbox_test {
+  umbrella header "Pods-checkbox_test-umbrella.h"
+
+  export *
+  module * { export * }
+}

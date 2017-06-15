@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B8BF3E76BF2DF720AF81864 /* Pods_checkbox_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4799B7566EF28E34CFACCC0C /* Pods_checkbox_test.framework */; };
 		8110F3E21EEE658200DCB45D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8110F3E11EEE658200DCB45D /* AppDelegate.swift */; };
 		8110F3E41EEE658200DCB45D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8110F3E31EEE658200DCB45D /* ViewController.swift */; };
 		8110F3E71EEE658200DCB45D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8110F3E51EEE658200DCB45D /* Main.storyboard */; };
 		8110F3E91EEE658200DCB45D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8110F3E81EEE658200DCB45D /* Assets.xcassets */; };
 		8110F3EC1EEE658200DCB45D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8110F3EA1EEE658200DCB45D /* LaunchScreen.storyboard */; };
+		8110F3F41EEE65A500DCB45D /* AIFlatSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8110F3F31EEE65A500DCB45D /* AIFlatSwitch.swift */; };
+		8110F3F61EEE688300DCB45D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8110F3F51EEE688300DCB45D /* TableViewCell.swift */; };
+		8110F3F81EEE6E2100DCB45D /* MPOSNoti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8110F3F71EEE6E2100DCB45D /* MPOSNoti.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4799B7566EF28E34CFACCC0C /* Pods_checkbox_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_checkbox_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E322498B3944611229B2226 /* Pods-checkbox_test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-checkbox_test.release.xcconfig"; path = "Pods/Target Support Files/Pods-checkbox_test/Pods-checkbox_test.release.xcconfig"; sourceTree = "<group>"; };
 		8110F3DE1EEE658200DCB45D /* checkbox_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = checkbox_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8110F3E11EEE658200DCB45D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8110F3E31EEE658200DCB45D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,10 @@
 		8110F3E81EEE658200DCB45D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8110F3EB1EEE658200DCB45D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8110F3ED1EEE658200DCB45D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8110F3F31EEE65A500DCB45D /* AIFlatSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIFlatSwitch.swift; sourceTree = "<group>"; };
+		8110F3F51EEE688300DCB45D /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		8110F3F71EEE6E2100DCB45D /* MPOSNoti.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPOSNoti.swift; sourceTree = "<group>"; };
+		905385A1025EC6B6E48CA4AB /* Pods-checkbox_test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-checkbox_test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-checkbox_test/Pods-checkbox_test.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B8BF3E76BF2DF720AF81864 /* Pods_checkbox_test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		727A17F25E2F284920F2468D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				905385A1025EC6B6E48CA4AB /* Pods-checkbox_test.debug.xcconfig */,
+				5E322498B3944611229B2226 /* Pods-checkbox_test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8110F3D51EEE658200DCB45D = {
 			isa = PBXGroup;
 			children = (
 				8110F3E01EEE658200DCB45D /* checkbox_test */,
 				8110F3DF1EEE658200DCB45D /* Products */,
+				727A17F25E2F284920F2468D /* Pods */,
+				E9C07E5D185937FB0011B786 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +77,24 @@
 			isa = PBXGroup;
 			children = (
 				8110F3E11EEE658200DCB45D /* AppDelegate.swift */,
+				8110F3F31EEE65A500DCB45D /* AIFlatSwitch.swift */,
 				8110F3E31EEE658200DCB45D /* ViewController.swift */,
 				8110F3E51EEE658200DCB45D /* Main.storyboard */,
 				8110F3E81EEE658200DCB45D /* Assets.xcassets */,
 				8110F3EA1EEE658200DCB45D /* LaunchScreen.storyboard */,
 				8110F3ED1EEE658200DCB45D /* Info.plist */,
+				8110F3F51EEE688300DCB45D /* TableViewCell.swift */,
+				8110F3F71EEE6E2100DCB45D /* MPOSNoti.swift */,
 			);
 			path = checkbox_test;
+			sourceTree = "<group>";
+		};
+		E9C07E5D185937FB0011B786 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4799B7566EF28E34CFACCC0C /* Pods_checkbox_test.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8110F3F01EEE658200DCB45D /* Build configuration list for PBXNativeTarget "checkbox_test" */;
 			buildPhases = (
+				DE4DCEF30A9D2FFCA767649C /* [CP] Check Pods Manifest.lock */,
 				8110F3DA1EEE658200DCB45D /* Sources */,
 				8110F3DB1EEE658200DCB45D /* Frameworks */,
 				8110F3DC1EEE658200DCB45D /* Resources */,
+				8A73332BAB50F6008329C048 /* [CP] Embed Pods Frameworks */,
+				4A0DABF26C7A0CB666E91434 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,11 +168,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A0DABF26C7A0CB666E91434 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-checkbox_test/Pods-checkbox_test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A73332BAB50F6008329C048 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-checkbox_test/Pods-checkbox_test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE4DCEF30A9D2FFCA767649C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8110F3DA1EEE658200DCB45D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8110F3F41EEE65A500DCB45D /* AIFlatSwitch.swift in Sources */,
+				8110F3F81EEE6E2100DCB45D /* MPOSNoti.swift in Sources */,
+				8110F3F61EEE688300DCB45D /* TableViewCell.swift in Sources */,
 				8110F3E41EEE658200DCB45D /* ViewController.swift in Sources */,
 				8110F3E21EEE658200DCB45D /* AppDelegate.swift in Sources */,
 			);
@@ -205,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -249,7 +336,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -259,6 +346,7 @@
 		};
 		8110F3F11EEE658200DCB45D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 905385A1025EC6B6E48CA4AB /* Pods-checkbox_test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y4L84BS83X;
@@ -272,6 +360,7 @@
 		};
 		8110F3F21EEE658200DCB45D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E322498B3944611229B2226 /* Pods-checkbox_test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y4L84BS83X;
@@ -302,6 +391,7 @@
 				8110F3F21EEE658200DCB45D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
