@@ -16,6 +16,7 @@
 		8110F3F41EEE65A500DCB45D /* AIFlatSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8110F3F31EEE65A500DCB45D /* AIFlatSwitch.swift */; };
 		8110F3F61EEE688300DCB45D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8110F3F51EEE688300DCB45D /* TableViewCell.swift */; };
 		8110F3F81EEE6E2100DCB45D /* MPOSNoti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8110F3F71EEE6E2100DCB45D /* MPOSNoti.swift */; };
+		815F7E971F04DC9A007E5B75 /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815F7E961F04DC9A007E5B75 /* TestController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		8110F3F31EEE65A500DCB45D /* AIFlatSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIFlatSwitch.swift; sourceTree = "<group>"; };
 		8110F3F51EEE688300DCB45D /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		8110F3F71EEE6E2100DCB45D /* MPOSNoti.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPOSNoti.swift; sourceTree = "<group>"; };
+		815F7E961F04DC9A007E5B75 /* TestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
 		905385A1025EC6B6E48CA4AB /* Pods-checkbox_test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-checkbox_test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-checkbox_test/Pods-checkbox_test.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,6 +87,7 @@
 				8110F3ED1EEE658200DCB45D /* Info.plist */,
 				8110F3F51EEE688300DCB45D /* TableViewCell.swift */,
 				8110F3F71EEE6E2100DCB45D /* MPOSNoti.swift */,
+				815F7E961F04DC9A007E5B75 /* TestController.swift */,
 			);
 			path = checkbox_test;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				8110F3F41EEE65A500DCB45D /* AIFlatSwitch.swift in Sources */,
 				8110F3F81EEE6E2100DCB45D /* MPOSNoti.swift in Sources */,
 				8110F3F61EEE688300DCB45D /* TableViewCell.swift in Sources */,
+				815F7E971F04DC9A007E5B75 /* TestController.swift in Sources */,
 				8110F3E41EEE658200DCB45D /* ViewController.swift in Sources */,
 				8110F3E21EEE658200DCB45D /* AppDelegate.swift in Sources */,
 			);
