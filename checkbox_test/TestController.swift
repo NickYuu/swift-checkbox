@@ -25,28 +25,7 @@ class TestController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        add.rx.tap
-            .subscribe(onNext: { [unowned self] in
-                let v = self.slider.value + 0.5
-                self.slider.setValue(v, animated: true)
-                print(self.slider.value)
-            })
-            .addDisposableTo(bag)
         
-        rru03.rx.tap
-            .subscribe(onNext: { [unowned self] in
-                let v = self.slider.value - 0.5
-                self.slider.setValue(v, animated: true)
-            })
-            .addDisposableTo(bag)
-        
-        
-        slider.rx.value
-            .subscribe(onNext: { [unowned self] in
-                let v = roundf($0 * 2.0) * 0.5
-                self.slider.setValue(v, animated: true)
-                self.label.text = String(v)
-            }).addDisposableTo(bag)
         
         
     }
